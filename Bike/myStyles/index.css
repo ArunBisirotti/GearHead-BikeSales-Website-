@@ -1,0 +1,269 @@
+.main_content h2{
+    color: white;
+}
+
+/*-------------------------------------Popular Bikes------------------------------------------------*/
+.Bcontainer{
+    width:107%;
+    height: 620px;
+    background-image: url('../Images/BMW1.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10%;
+    transition: background-image 0.3s;
+}
+.Bcontainer nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Bcontainer nav .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-left: -100px;
+}
+.Bcontainer nav .btn{
+    margin-left: 650px;
+    text-decoration: none;
+    color: #fff;
+    background: orangered;
+    padding: 15px 50px;
+    border-radius: 30px;
+}
+.Bcontainer nav .btn2{
+    text-decoration: none;
+    color: #fff;
+    background: black;
+    padding: 15px 50px;
+    border-radius: 30px;
+}
+.Bcontent{
+    margin-left: -80px;
+    margin-top: 10%;
+}
+.Bcontent h2{
+    color: red;
+    font-size: 34px;
+}
+.Bcontent h1{
+    font-size: 100px;
+    color: #222;
+    margin-top: -25px;
+
+}
+.Bcontent p{
+    max-width: 380px;
+    font-weight: 500px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+
+}
+.Bcontent h3{
+    margin-top: 30px;
+    font-weight: 60px;
+    font-size: 24px;
+}
+.color-select div{
+    background: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.color-select {
+    display: flex;
+    margin-top: 30px;
+}
+.color-select #red{
+    background-color: red;
+}
+.color-select #blue{
+    background-color: blue;
+}
+.color-select #black{
+    background-color: black;
+}
+
+/*----------------------------------------------------------------------------------------*/
+/*-------------------------------------Popular Bikes------------------------------------------------*/
+.Bcontainer2{
+    width:107%;
+    height: 620px;
+    background-image: url('../Images/NHW.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10%;
+    transition: background-image 0.3s;
+}
+.Bcontainer2 nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Bcontainer2 nav .logo{
+    width: 150px;
+    cursor: pointer;
+    margin-left: -100px;
+}
+.Bcontainer2 nav .btn{
+    margin-left: 650px;
+    text-decoration: none;
+    color: #fff;
+    background: orangered;
+    padding: 15px 50px;
+    border-radius: 30px;
+}
+.Bcontainer2 nav .btn2{
+    text-decoration: none;
+    color: #fff;
+    background: black;
+    padding: 15px 50px;
+    border-radius: 30px;
+}
+.Bcontent2{
+    margin-left: -80px;
+    margin-top: 10%;
+}
+.Bcontent2 h2{
+    color: red;
+    font-size: 34px;
+}
+.Bcontent2 h1{
+    font-size: 100px;
+    margin-top: -25px;
+
+}
+.Bcontent2 p{
+    max-width: 380px;
+    font-size: 13px;
+    color:black;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.Bcontent2 h3{
+    margin-top: 30px;
+    font-weight: 60px;
+    font-size: 24px;
+}
+.color-select2 div{
+    background: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.color-select2 {
+    display: flex;
+    margin-top: 30px;
+}
+.color-select2 #red2{
+    background-color: rgb(230, 230, 230);
+}
+.color-select2 #blue2{
+    background-color: gray;
+}
+.color-select2 #black2{
+    background-color: black;
+}
+/*----------------------------------------------------------------------------------------*/
+
+/*-------------------------------------Popular Bikes------------------------------------------------*/
+.Bcontainer3{
+    width:107%;
+    height: 620px;
+    background-image: url('../Images/RER.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10%;
+    transition: background-image 0.3s;
+}
+.Bcontainer3 nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Bcontainer3 nav .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-left: -100px;
+}
+.Bcontainer3 nav .btn{
+    text-decoration: none;
+    color: #fff;
+    background: orangered;
+    padding: 15px 50px;
+    border-radius: 30px;
+    margin-left: 650px;
+}
+.Bcontainer3 nav .btn2{
+    text-decoration: none;
+    color: #fff;
+    background: #333;
+    padding: 15px 50px;
+    border-radius: 30px;
+}
+.Bcontent3{
+    margin-left: -80px;
+    margin-top: 10%;
+}
+.Bcontent3 h2{
+    margin-top: -90px;
+    color: red;
+    font-size: 34px;
+}
+.Bcontent3 h1{
+    font-size: 100px;
+    color: #222;
+    margin-top: -10px;
+
+}
+.Bcontent3 p{
+    max-width: 380px;
+    font-weight: 500px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+
+}
+.Bcontent3 h3{
+    margin-top: 30px;
+    font-weight: 60px;
+    font-size: 24px;
+}
+.color-select3 div{
+    background: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.color-select3 {
+    display: flex;
+    margin-top: 30px;
+}
+.color-select3 #red3{
+    background-color: red;
+}
+.color-select3 #blue3{
+    background-color: rgb(235, 232, 226);
+}
+.color-select3 #black3{
+    background-color: black;
+}
+/*----------------------------------------------------------------------------------------*/
+
+video {
+    margin-left: 130px;
+    width: 80%;
+    object-fit: cover;  
+    margin-top: -25px;
+  }

@@ -1,0 +1,110 @@
+/*----------------------------------------------------------------------------------------*/
+
+.copyright{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+footer{
+    
+    background-color: black;
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    padding: 3rem 1rem;
+}
+.ccontainer{
+    
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.row{
+    margin-top: -60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col{
+    min-width: 250px;
+    color: white;
+    font-family: poppins;
+    padding: 0 2rem;
+    margin-bottom: -10px;
+}
+.col h3{
+    color: #ff014fff;
+    margin-bottom: 45px;
+    position: relative;
+    cursor: pointer;
+}
+.col h1{
+    margin-bottom: 30px;
+}
+.col b1{
+    font-size: 25px;
+}
+.col b{
+    color: #ff014fff;
+    width: 100px;
+    margin-bottom: 25px;
+}
+.col h3::after{
+    content: '';
+    height: 3px;
+    width: 0px;
+    background-color: #ff014fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}   
+.col h1:hover::after{
+    width: 30px;
+}
+.col .csocial a i{
+
+    color: #ff014fff;
+    margin-top: 0rem;
+    margin-right: 5px;
+    transition: 0.3s ease                                                                                           ;
+}
+.col .csocial a i:hover{
+    transform: scale(1.5);
+    filter: grayscale(25);
+}
+.col .links a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+    position: relative;
+    transition: 0.3s ease;
+}
+.col .links a:before{
+    content: '';
+    height: 16px;
+    width: 3px;
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    background-color: #ff014fff;
+    transition: 0.5s ease;
+    opacity: 0;
+}
+.col .links a:hover::before{
+    opacity: 1;
+}
+.col .links a:hover{
+    transform: translateX(-8px);
+    color: #ff014fff;
+}.col .contact-detail{
+    display: inline-flex;
+    justify-content: space-between;
+} 

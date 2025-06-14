@@ -1,0 +1,18 @@
+.content p{
+    color: white;
+    font-weight: bold;
+}
+.container h1{
+    color: #ff014fff;
+}
+.container{
+    background-image: url('../Images/logo\ bike.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+.container h3{
+    color: #ff014fff;
+}.content h3{
+    font-weight: bold;
+}
